@@ -159,7 +159,7 @@ div label:hover {
 .item2{
     grid-area: img2;
     background-color: red;
-    background-image: url(../galeria/dulce3.jpg);
+    background-image: url(../Galeria/dulce3.jpg);
     background-size: cover;
     background-position: center;
     
@@ -167,14 +167,14 @@ div label:hover {
 .item3{
     grid-area: img3;
     background-color: rgb(73, 24, 206);
-    background-image: url(../galeria/dulce2.jpg);
+    background-image: url(../Galeria/dulce2.jpg);
     background-size: cover;
     background-position: center;
 }
 .item4{
     grid-area: img4;
     background-color: rgb(216, 235, 48);
-    background-image: url(../galeria/du.jpg);
+    background-image: url(../Galeria/du.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -194,49 +194,49 @@ div label:hover {
 
 .imgnosotros2 {
     grid-area: img2;
-    background-image: url(../galeria/nosotros2.jpg);
+    background-image: url(../Galeria/nosotros2.jpg);
 }
 
 .imgnosotros3 {
     grid-area: img3;
-    background-image: url(../galeria/nosotrosviniedo.jpg);
+    background-image: url(../Galeria/nosotrosviniedo.jpg);
 }
 
 .imgnosotros4 {
     grid-area: img4;
-    background-image: url(../galeria/nosotros3.jpg);
+    background-image: url(../Galeria/nosotros3.jpg);
 }
  
 .imgcerveza2 {
     grid-area: img2;
-    background-image: url(../galeria/laburrapecadora.jpeg);
+    background-image: url(../Galeria/laburrapecadora.jpeg);
 }
 
 .imgcerveza3 {
     grid-area: img3;
-    background-image: url(../galeria/packlaburra.jpg);
+    background-image: url(../Galeria/packlaburra.jpg);
 }
 
 .imgcerveza4 {
     grid-area: img4;
-    background-image: url(../galeria/laburra.jpeg);
+    background-image: url(../Galeria/laburra.jpeg);
 }
 
  
 
 .imgdulce2 {
     grid-area: img2;
-    background-image: url(../galeria/dulce1.jpg);
+    background-image: url(../Galeria/dulce1.jpg);
 }
 
 .imgdulce3 {
     grid-area: img3;
-    background-image: url(../galeria/dulce2.jpg);
+    background-image: url(../Galeria/dulce2.jpg);
 }
 
 .imgdulce4 {
     grid-area: img4;
-    background-image: url(../galeria/dulce3.jpg);
+    background-image: url(../Galeria/dulce3.jpg);
 }
 
 
@@ -244,17 +244,17 @@ div label:hover {
 
 .imgfuturo2 {
     grid-area: img2;
-    background-image: url(../galeria/nosotrosSotano.jpg);
+    background-image: url(../Galeria/nosotrosSotano.jpg);
 }
 
 .imgfuturo3 {
     grid-area: img3;
-    background-image: url(../galeria/winebar.jpg);
+    background-image: url(../Galeria/winebar.jpg);
 }
 
 .imgfuturo4 {
     grid-area: img4;
-    background-image: url(../galeria/winebar2.jpg);
+    background-image: url(../Galeria/winebar2.jpg);
 }
 
 
