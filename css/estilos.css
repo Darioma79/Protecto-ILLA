@@ -16,10 +16,22 @@ body{
 } 
 
 .encabezado {
-    background-image: url(../Galeria/fondoheader.jpg);
+    background-image:url(../Galeria/fondoheader.jpg);
     height: auto;
     text-align: center;
  }
+
+ .tituloVolver h2 {
+    font-size: 40px;
+    margin: 20px;
+    text-align: center;
+    
+}
+.tituloVolver h2:hover{
+   transform: scale(1.5);
+   transition: all 1s;
+   
+}
  
 
  input {
@@ -34,6 +46,11 @@ body{
 .logo {
     width: 200px;
     height: 200px;  
+    transition: 1.5s;
+}
+.logo:hover {
+    width: 350px;
+    height: 350px;
 }
 
 .logoTitulo h1 {
