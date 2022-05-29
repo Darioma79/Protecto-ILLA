@@ -43,6 +43,7 @@ body{
 .logoTitulo h2 {
     font-size: 40px;
 }
+/*
 div.btn-menu {
     display: flex;
     height: 70px;
@@ -50,7 +51,7 @@ div.btn-menu {
 }
 #btn-menu {
     display: none;
-}
+}*/
 
 div label {
     display: none;
