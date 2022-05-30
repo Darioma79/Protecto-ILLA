@@ -14,7 +14,7 @@
 
 <body>
 
-    <header class="pagina">
+    <header class="seccion encabezado pagina">
         
         <img src="../galeria/illalogo.png" class="logo">   
 
@@ -32,7 +32,7 @@
 
     <main class="pag nosotros">
 
-        <div class="tituloVolver">
+        <div class="botonPagina">
 
             <h2>NUESTROS DULCES.</h2>
 
@@ -68,64 +68,68 @@
 
         </div>
 
-        <div class="contenedorFooter">
+        <div class="container-fluid">
+
+            <div class="row">
                
-            <div class="footer formulario">
-                
-                <form>
+                <div class="footer formulario col-sm-12 col-md-4">
                     
+                    <form>                        
 
-                    <ul>
+                        <ul>
 
-                        <li>
-                            <label for="name">Nombre</label>
-                            <input type="text" id="name" name="user_name" placeholder="Juan Perez">
-                        </li> 
+                            <li>
+                                <label for="name">Nombre</label>
+                                <input type="text" id="name" name="user_name" placeholder="Juan Perez">
+                            </li> 
 
-                        <li>
-                            <label for="mail">E-Mail</label>
-                            <input type="email" id="mail" name="user_email"placeholder="e-mail@ejemplo.com">
-                        </li>
+                            <li>
+                                <label for="mail">E-Mail</label>
+                                <input type="email" id="mail" name="user_email"placeholder="e-mail@ejemplo.com">
+                            </li>
 
-                        <li>
-                            <label for="number">Telefono</label>
-                            <input type="tel" name="telefono" placeholder="(Código de área) Número">
-                        </li>
+                            <li>
+                                <label for="number">Telefono</label>
+                                <input type="tel" name="telefono" placeholder="(Código de área) Número">
+                            </li>
 
-                        <li>
-                            <label for="msg">Mensaje:</label>
-                            <textarea id="msg" name="user_message"placeholder="comentanos tu inquietud" ></textarea>
-                        </li>
+                            <li>
+                                <label for="msg">Mensaje:</label>
+                                <textarea id="msg" name="user_message"placeholder="comentanos tu inquietud" ></textarea>
+                            </li>
 
-                        <li class="button">     
-                            <button type="submit" id="boton">Enviar</button>
-                        </li>
+                            <li class="button">     
+                                <button type="submit" id="boton">Enviar</button>
+                            </li>
 
-                    </ul>
+                        </ul>
 
-                </form>
+                    </form>
 
-            </div>
-            
-            <div class="logo">
+                </div>
+                
+                <div class="logo col-sm-12 col-md-4">
 
-                <img src="../Galeria/illalogo.png" class="logo">
+                    <img src="../galeria/illalogo.png" class="logo">
 
-            </div>
-            
-            <div class="redes">
+                </div>
+                
+                <div class="redes col-sm-12 col-md-4">
 
-                <a href="#" class="subir"><i><i class="fa-solid fa-angles-up"></i></i>  
+                    <a href="#" class="subir"><i><i class="fa-solid fa-angles-up"></i></i>  
 
-                <a href=""><i class="fa-brands fa-facebook-square"></i>Facebook</a>
+                    <a href=""><i class="fa-brands fa-facebook-square"></i>Facebook</a>
 
-                <a href=""><i class="fa-brands fa-instagram"></i>Instabram</a>
+                    <a href=""><i class="fa-brands fa-instagram"></i>Instabram</a>
 
-                <a href=""><i class="fa-brands fa-whatsapp"></i>Whatsapp</a>
+                    <a href=""><i class="fa-brands fa-whatsapp"></i>Whatsapp</a>
 
-            </div>
+                </div>
+
+            </div>    
 
         </div>
+
 
     </footer>
 </body>
