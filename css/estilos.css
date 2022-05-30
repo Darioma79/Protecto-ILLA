@@ -16,7 +16,7 @@ body{
 } 
 
 .encabezado {
-    background-image: url(../Galeria/fondoheader.jpg);
+    background-image: url(../galeria/fondoheader.jpg);
     height: auto;
     text-align: center;
  }
@@ -124,7 +124,7 @@ div label:hover {
  }
 
  header.pagina {
-    background-image: url(../Galeria/fondoheader.jpg);
+    background-image: url(../galeria/fondoheader.jpg);
     height: 500px;
     display: flex;
     flex-direction: column;
@@ -195,39 +195,39 @@ div label:hover {
 
 .imgnosotros2 {
     grid-area: img2;
-    background-image: url(../Galeria/nosotros2.jpg);
+    background-image: url(../galeria/nosotros2.jpg);
 }
 
 .imgnosotros3 {
     grid-area: img3;
-    background-image: url(../Galeria/nosotrosviniedo.jpg);
+    background-image: url(../galeria/nosotrosviniedo.jpg);
 }
 
 .imgnosotros4 {
     grid-area: img4;
-    background-image: url(../Galeria/nosotros3.jpg);
+    background-image: url(../galeria/nosotros3.jpg);
 }
  
 .imgcerveza2 {
     grid-area: img2;
-    background-image: url(../Galeria/laburrapecadora.jpeg);
+    background-image: url(../galeria/laburrapecadora.jpeg);
 }
 
 .imgcerveza3 {
     grid-area: img3;
-    background-image: url(../Galeria/packlaburra.jpg);
+    background-image: url(../galeria/packlaburra.jpg);
 }
 
 .imgcerveza4 {
     grid-area: img4;
-    background-image: url(../Galeria/laburra.jpeg);
+    background-image: url(../galeria/laburra.jpeg);
 }
 
  
 
 .imgdulce2 {
     grid-area: img2;
-    background-image: url(../Galeria/dulce1.jpg);
+    background-image: url(../galeria/dulce1.jpg);
 }
 
 .imgdulce3 {
@@ -237,7 +237,7 @@ div label:hover {
 
 .imgdulce4 {
     grid-area: img4;
-    background-image: url(../Galeria/dulce3.jpg);
+    background-image: url(../galeria/dulce3.jpg);
 }
 
 
@@ -245,17 +245,17 @@ div label:hover {
 
 .imgfuturo2 {
     grid-area: img2;
-    background-image: url(../Galeria/nosotrosSotano.jpg);
+    background-image: url(../galeria/nosotrosSotano.jpg);
 }
 
 .imgfuturo3 {
     grid-area: img3;
-    background-image: url(../Galeria/winebar.jpg);
+    background-image: url(../galeria/winebar.jpg);
 }
 
 .imgfuturo4 {
     grid-area: img4;
-    background-image: url(../Galeria/winebar2.jpg);
+    background-image: url(../galeria/winebar2.jpg);
 }
 
 
