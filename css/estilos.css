@@ -124,4 +124,108 @@ div.logo {
     height: 100px;
 
  }
+ .pagina {
+    background-color: rgb(42, 44, 43);
+    width: 100%;
+    min-height: 800px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;  
+    grid-template-rows: 300px 300px;
+    grid-template-areas: "img1 img2 img3"
+                         "img1 img2 img4";
+                     
+}/*
+.item {
+    border: solid black;
+    margin: 5px;
+}*/
+.item1{
+    grid-area: img1;
+    background: linear-gradient(270deg, rgba(2,0,36,1) 0%, rgba(183,83,222,1) 45%);
+    text-align: center;
+    padding: 10px;
+}
+
+
+.item2{
+    grid-area: img2;
+    background-color: red;   
+    background-size: cover;
+    background-position: center;
+    
+}
+.item3{
+    grid-area: img3;
+    background-color: rgb(73, 24, 206);
+    background-image: url(../galeria/dulce2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.item4{
+    grid-area: img4;
+    background-color: rgb(216, 235, 48);
+    background-image: url(../galeria/du.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.item {
+    border: 2px solid rgb(97, 97, 91);
+    border-radius: 10px;
+   filter: grayscale(50%);
+   
+}  
+
+.item:hover{ 
+    transform: scale(1.10);
+    transition: all 1s;
+    filter: grayscale(0);
+}
+
+
+.imgnosotros2 {
+    grid-area: img2;
+    background-image: url(../galeria/nosotros2.jpg);
+}
+
+.imgnosotros3 {
+    grid-area: img3;
+    background-image: url(../galeria/nosotrosviniedo.jpg);
+}
+
+.imgnosotros4 {
+    grid-area: img4;
+    background-image: url(../galeria/nosotros3.jpg);
+}
+ 
+.imgcerveza2 {
+    grid-area: img2;
+    background-image: url(../galeria/laburrapecadora.jpeg);
+}
+
+.imgcerveza3 {
+    grid-area: img3;
+    background-image: url(../galeria/packlaburra.jpg);
+}
+
+.imgcerveza4 {
+    grid-area: img4;
+    background-image: url(../galeria/laburra.jpeg);
+}
+
+ 
+
+.imgdulce2 {
+    grid-area: img2;
+    background-image: url(../galeria/dulce1.jpg);
+}
+
+.imgdulce3 {
+    grid-area: img3;
+    background-image: url(../Galeria/dulce2.jpg);
+}
+
+.imgdulce4 {
+    grid-area: img4;
+    background-image: url(../galeria/dulce3.jpg);
+}
 
