@@ -8,7 +8,10 @@
     text-align: center;
     height: 550px;
     border: solid black;
+    background-image: url(../galeria/fondoViniedo.jpg);
+    color: rgb(243, 242, 242);
 }
+
 
 
 .logo {
@@ -119,5 +122,6 @@ div.logo {
  .botonPagina {
     text-align: center;
     height: 100px;
+
  }
 
