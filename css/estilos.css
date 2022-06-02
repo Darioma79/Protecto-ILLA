@@ -3,7 +3,9 @@
     min-height: 420px;
     width: 100%;
 }
-
+header {
+    color: rgb(255, 255, 255);
+}
 .seccion {
     text-align: center;
     height: 550px;
