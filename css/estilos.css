@@ -60,21 +60,6 @@ textarea {
     max-width: 100%;
 }
 
-/*
-.subir {
-    height: 50px;
-    width: 50px;
-    background-color: rgba(128, 128, 128, 0.616);
-    position: fixed;
-    bottom: 40px;
-    right: 40px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 40px;
-    font-size: 25px;
-    border: 5px solid rgb(48, 40, 40);
-    color: black;
-}*/
 footer{
     width: 100%;
     min-height: 400px;
