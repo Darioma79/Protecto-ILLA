@@ -37,6 +37,21 @@ header {
     align-items: center;
     padding: 40px;    
  }
+
+.caja {        
+   filter: grayscale(50%); 
+}  
+
+.caja:hover{ 
+    transform: scale(1.05);
+    transition: all 1s;
+    filter: grayscale(0);
+}
+h4 :hover{
+    transform: scale(1.05);
+    transition: all 1s;
+}
+
 /*--------------------footer--------------------*/
 
 form {
@@ -99,7 +114,7 @@ div.logo {
     margin-bottom: 50px;
 }
 
- /*--------------------paginas--------------------*/
+ --------------------paginas--------------------
 
  .pagina {
      height: 400px;
@@ -111,4 +126,6 @@ div.logo {
     height: 100px;
 
  }
-
+ .page {
+    background: linear-gradient(0deg, rgba(191,170,200,1) 0%, rgba(119,68,139,1) 100%);
+ }
