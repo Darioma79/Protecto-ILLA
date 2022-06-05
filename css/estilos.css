@@ -129,3 +129,7 @@ div.logo {
  .page {
     background: linear-gradient(0deg, rgba(191,170,200,1) 0%, rgba(119,68,139,1) 100%);
  }
+ .img-fluid {
+     width: auto;
+     height: 100%;
+ }
