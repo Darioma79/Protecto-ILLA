@@ -13,8 +13,11 @@ header {
     background-image: url(../galeria/fondoViniedo.jpg);
     color: rgb(243, 242, 242);
 }
-
-
+/*
+nav {
+    height: 200px;
+    width: 100%;
+}*/
 
 .logo {
     width: 200px;
