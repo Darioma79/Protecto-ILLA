@@ -13,11 +13,6 @@ header {
     background-image: url(../galeria/fondoViniedo.jpg);
     color: rgb(243, 242, 242);
 }
-/*
-nav {
-    height: 200px;
-    width: 100%;
-}*/
 
 .logo {
     width: 200px;
@@ -39,10 +34,10 @@ nav {
     justify-content: space-around;
     align-items: center;
     padding: 40px;    
- }
+}
 
 .caja {        
-   filter: grayscale(50%); 
+    filter: grayscale(50%); 
 }  
 
 .caja:hover{ 
@@ -117,22 +112,23 @@ div.logo {
     margin-bottom: 50px;
 }
 
- --------------------paginas--------------------
+--------------------paginas--------------------
 
- .pagina {
-     height: 400px;
-     width: 100%;
+.pagina {
+    height: 400px;
+    width: 100%;
     
- }
- .botonPagina {
-    text-align: center;
-    height: 100px;
+}
+.botonPagina {
+text-align: center;
+height: 100px;
 
- }
- .page {
-    background: linear-gradient(0deg, rgba(191,170,200,1) 0%, rgba(119,68,139,1) 100%);
- }
- .img-fluid {
-     width: auto;
-     height: 100%;
- }
+}
+
+.img-fluid {
+    width: auto;
+    height: 100%;
+}    
+    
+
+/*# sourceMappingURL=estilos.css.map */
