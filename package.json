@@ -1,0 +1,19 @@
+{
+  "name": "illa",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Darioma79/Protecto-ILLA.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Darioma79/Protecto-ILLA/issues"
+  },
+  "homepage": "https://github.com/Darioma79/Protecto-ILLA#readme",
+  "description": ""
+}
