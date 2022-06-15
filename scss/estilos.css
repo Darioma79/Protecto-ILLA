@@ -13,7 +13,7 @@ header {
   height: 550px;
   border: solid black;
   background-image: url(../galeria/fondoViniedo.jpg);
-  color: #f3f2f2;
+  color: white;
 }
 
 .logo {
@@ -26,7 +26,7 @@ header {
 }
 
 .logoTitulo h2 {
-  font-size: 40px;
+  font-size: 35px;
 }
 
 div.logoTitulo {
@@ -71,7 +71,7 @@ h4 :hover {
 form {
   max-width: 300px;
   background: rgba(179, 154, 154, 0.4);
-  border: solid #242121;
+  border: solid black;
   padding: 40px;
   border-radius: 20px;
 }
@@ -95,13 +95,13 @@ textarea {
 footer {
   width: 100%;
   min-height: 400px;
-  border: solid #0a0a0a;
+  border: solid black;
   background-color: #858585;
 }
 
 .contactanos {
   text-align: center;
-  font-size: 30px;
+  font-size: 35px;
 }
 
 .contenedorFooter {
@@ -124,7 +124,7 @@ div.logo {
 .redes a {
   text-decoration: none;
   color: white;
-  font-size: 25px;
+  font-size: 35px;
 }
 
 .redes {
@@ -140,8 +140,6 @@ div.logo {
           justify-content: end;
   margin-bottom: 50px;
 }
-
---------------------paginas--------------------
 .pagina {
   height: 400px;
   width: 100%;
@@ -155,5 +153,20 @@ div.logo {
 .img-fluid {
   width: auto;
   height: 100%;
+}
+
+article div.lista {
+  border: solid black;
+  background-color: #add8ca;
+}
+
+article div.lista ul {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+article div.lista ul li {
+  font-size: 20px;
 }
 /*# sourceMappingURL=estilos.css.map */
