@@ -14,13 +14,19 @@ height: 100px;
     height: 100%;
 }   
 
-article div.lista {     
+.articulo {
     border: solid $color2;
-    background-color: rgb(173, 216, 202);
+    background-color: rgb(173, 216, 202);  
+    margin: auto;
+    padding: auto;
+    text-align: center;
+    .lista {           
         ul {
-        justify-content: end;
+        text-align: center;
+        }
         li{
             font-size: 20px;
+            list-style: none;
         }
     }
 }

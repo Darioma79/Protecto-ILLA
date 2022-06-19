@@ -5,10 +5,16 @@ $fontTa: 35px;
 
 .encabezado {
     background-image: url(../galeria/fondoheader.jpg);
-    min-height: 420px;
+    min-height: 100px;
     width: 100%;
 }
-header {
+.logoFijo{
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.header {
     color: $color1;
 
 }
@@ -26,12 +32,17 @@ header {
     height: 200px;  
 }
 
-.logoTitulo h1 {
+.logoTitulo{ 
+    h1 {
     font-size: 60px;
-}
-
-.logoTitulo h2 {
+    color: $color1;
+    }
+    
+    h2 {
     font-size: $fontTa;
+    color: $color1;
+
+    }
 }
 
 div.logoTitulo {
