@@ -23,6 +23,7 @@
   color: rgb(255, 255, 255);
   text-transform: uppercase;
   font-family: "Times New Roman", Times, serif;
+  text-shadow: 5px 5px 10px rgb(0, 0, 0);
   font-size: 25px;
   font-weight: bold;
 }
@@ -66,10 +67,12 @@
 .logoTitulo h1 {
   font-size: 60px;
   color: rgb(255, 255, 255);
+  text-shadow: 5px 5px 10px rgb(0, 0, 0);
 }
 .logoTitulo h2 {
   font-size: 35px;
   color: rgb(255, 255, 255);
+  text-shadow: 5px 5px 10px rgb(0, 0, 0);
 }
 
 div.logoTitulo {
@@ -155,6 +158,17 @@ div.logo {
   flex-direction: column;
   justify-content: end;
   margin-bottom: 50px;
+}
+
+header.seccion h1 {
+  font-size: 60px;
+  color: rgb(255, 255, 255);
+  text-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+header.seccion h2 {
+  font-size: 35px;
+  color: rgb(255, 255, 255);
+  text-shadow: 5px 5px 10px rgb(0, 0, 0);
 }
 
 .pagina {

@@ -1,6 +1,19 @@
+header.seccion {
+        h1 {
+            font-size: 60px;
+            color: $color1;
+            text-shadow: 5px 5px 10px $color2; 
+        }
+        h2 {
+            font-size: 35px;
+            color: rgb(255, 255, 255);
+            text-shadow: 5px 5px 10px $color2
+        }
+}
+
 .pagina {
     height: 400px;
-    width: 100%;
+    width: $w100;
     
 }
 .botonPagina {
@@ -11,7 +24,7 @@ height: 100px;
 
 .img-fluid {
     width: auto;
-    height: 100%;
+    height: $w100;
 }   
 
 .articulo {
