@@ -17,7 +17,6 @@
 .seccion {
   text-align: center;
   height: 550px;
-  border: solid rgb(0, 0, 0);
   color: rgb(102, 84, 100);
 }
 .seccion .texto {
