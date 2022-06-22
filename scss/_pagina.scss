@@ -1,0 +1,47 @@
+header.seccion {
+        h1 {
+            font-size: 60px;
+            color: $color1;
+            text-shadow: 5px 5px 10px $color2; 
+        }
+        h2 {
+            font-size: 35px;
+            color: rgb(255, 255, 255);
+            text-shadow: 5px 5px 10px $color2
+        }
+}
+
+.pagina {
+    height: 400px;
+    width: $w100;
+    
+}
+.botonPagina {
+text-align: center;
+height: 100px;
+
+}
+
+.img-fluid {
+    width: auto;
+    height: $w100;
+}   
+
+.articulo {
+    border: solid $color2;
+    background-color: rgb(173, 216, 202);  
+    margin: auto;
+    padding: auto;
+    text-align: center;
+    .lista {           
+        ul {
+        text-align: center;
+        }
+        li{
+            font-size: 20px;
+            list-style: none;
+        }
+    }
+}
+
+

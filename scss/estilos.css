@@ -1,19 +1,62 @@
 .encabezado {
   background-image: url(../galeria/fondoheader.jpg);
-  min-height: 420px;
+  min-height: 100px;
   width: 100%;
 }
 
-header {
+.logoFijo {
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.header {
   color: rgb(255, 255, 255);
 }
 
 .seccion {
   text-align: center;
   height: 550px;
-  border: solid black;
-  background-image: url(../galeria/fondoViniedo.jpg);
-  color: rgb(243, 242, 242);
+  color: rgb(102, 84, 100);
+}
+.seccion .texto {
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  font-family: "Times New Roman", Times, serif;
+  text-shadow: 5px 5px 10px rgb(0, 0, 0);
+  font-size: 25px;
+  font-weight: bold;
+}
+.seccion h2 {
+  color: rgb(0, 0, 0);
+}
+.seccion .imagen img {
+  border-radius: 25px;
+}
+
+.arbol-fondo,
+.copa-fondo,
+.barricas-fondo,
+.cielo-fondo {
+  height: 550px;
+  width: 100%;
+  border: 2px solid rgb(0, 0, 0);
+}
+
+.arbol-fondo {
+  background-image: url("../galeria/arbol.jpg");
+}
+
+.copa-fondo {
+  background-image: url("../galeria/copa.jpg");
+}
+
+.barricas-fondo {
+  background-image: url("../galeria/barricas.jpg");
+}
+
+.cielo-fondo {
+  background-image: url("../galeria/cielo.jpg");
 }
 
 .logo {
@@ -23,10 +66,13 @@ header {
 
 .logoTitulo h1 {
   font-size: 60px;
+  color: rgb(255, 255, 255);
+  text-shadow: 5px 5px 10px rgb(0, 0, 0);
 }
-
 .logoTitulo h2 {
-  font-size: 40px;
+  font-size: 35px;
+  color: rgb(255, 255, 255);
+  text-shadow: 5px 5px 10px rgb(0, 0, 0);
 }
 
 div.logoTitulo {
@@ -57,7 +103,7 @@ h4 :hover {
 form {
   max-width: 300px;
   background: rgba(179, 154, 154, 0.4);
-  border: solid rgb(36, 33, 33);
+  border: solid rgb(0, 0, 0);
   padding: 40px;
   border-radius: 20px;
 }
@@ -81,13 +127,13 @@ textarea {
 footer {
   width: 100%;
   min-height: 400px;
-  border: solid rgb(10, 10, 10);
-  background-color: rgb(133, 133, 133);
+  border: solid rgb(0, 0, 0);
+  background-color: rgb(102, 84, 100);
 }
 
 .contactanos {
   text-align: center;
-  font-size: 30px;
+  font-size: 35px;
 }
 
 .contenedorFooter {
@@ -104,7 +150,7 @@ div.logo {
 .redes a {
   text-decoration: none;
   color: rgb(255, 255, 255);
-  font-size: 25px;
+  font-size: 35px;
 }
 
 .redes {
@@ -114,7 +160,18 @@ div.logo {
   margin-bottom: 50px;
 }
 
---------------------paginas-------------------- .pagina {
+header.seccion h1 {
+  font-size: 60px;
+  color: rgb(255, 255, 255);
+  text-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+header.seccion h2 {
+  font-size: 35px;
+  color: rgb(255, 255, 255);
+  text-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+
+.pagina {
   height: 400px;
   width: 100%;
 }
@@ -127,4 +184,19 @@ div.logo {
 .img-fluid {
   width: auto;
   height: 100%;
+}
+
+.articulo {
+  border: solid rgb(0, 0, 0);
+  background-color: rgb(173, 216, 202);
+  margin: auto;
+  padding: auto;
+  text-align: center;
+}
+.articulo .lista ul {
+  text-align: center;
+}
+.articulo .lista li {
+  font-size: 20px;
+  list-style: none;
 }/*# sourceMappingURL=estilos.css.map */

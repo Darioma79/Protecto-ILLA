@@ -1,33 +1,87 @@
+$color1:rgb(255, 255, 255);
+$color2: rgb(0,0,0);
+$color3:rgb(102, 84, 100);
+$fontTa: 35px;
+$w100: 100%;
+
+
 .encabezado {
     background-image: url(../galeria/fondoheader.jpg);
-    min-height: 420px;
-    width: 100%;
+    min-height: 100px;
+    width: $w100;
 }
-header {
-    color: rgb(255, 255, 255);
+.logoFijo{
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.header {
+    color: $color1;
+
 }
 .seccion {
     text-align: center;
-    height: 550px;
-    border: solid black;
-    background-image: url(../galeria/fondoViniedo.jpg);
-    color: rgb(243, 242, 242);
+    height: 550px;    
+    color: $color3;    
+        .texto{
+        color: $color1;
+        text-transform: uppercase;
+        font-family: 'Times New Roman', Times, serif;
+        text-shadow: 5px 5px 10px $color2;
+        font-size: 25px;
+        font-weight: bold;
+        }
+        h2{
+            color: $color2;
+        }
+        .imagen{
+            img{
+                border-radius: 25px;
+            }
+            
+        }
+
 }
+
+.arbol-fondo,
+.copa-fondo,
+.barricas-fondo,
+.cielo-fondo {
+    height: 550px;
+    width: $w100;
+    border: 2px solid $color2;
+    }
+
+@each $imagenes in arbol , copa , barricas ,cielo {
+    .#{$imagenes}-fondo {
+        background-image: url("../galeria/#{$imagenes}.jpg");
+        }
+
+    
+}
+
 
 .logo {
     width: 200px;
     height: 200px;  
 }
 
-.logoTitulo h1 {
+.logoTitulo{ 
+    h1 {
     font-size: 60px;
+    color: $color1;
+    text-shadow: 5px 5px 10px $color2;
+    }
+    
+    h2 {
+    font-size: $fontTa;
+    color: $color1;
+    text-shadow: 5px 5px 10px $color2;
+    }
 }
 
-.logoTitulo h2 {
-    font-size: 40px;
-}
-
- div.logoTitulo {
+div.logoTitulo {
     height: 500px;
     display: flex;
     flex-direction: column;
@@ -52,81 +106,5 @@ h4 :hover{
 
 /*--------------------footer--------------------*/
 
-form {
-    max-width: 300px;
-    background: rgba(179, 154, 154, 0.4);
-    border: solid rgb(36, 33, 33);    
-    padding: 40px;
-    border-radius: 20px;
-    
-}
-form ul li{
-    color: rgb(255, 255, 255);
-    list-style: none
-}
-
-li input, textarea {
-    width: 100%;
-    margin-bottom: 10px;
-}
-textarea {
-    min-height: 50px;
-    max-height: 100px;
-    max-width: 100%;
-}
-
-footer{
-    width: 100%;
-    min-height: 400px;
-    border: solid rgb(10, 10, 10);
-    background-color: rgb(133, 133, 133)
-    
-}
-.contactanos{
-    text-align: center;
-    font-size: 30px;
-}
-.contenedorFooter {    
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin: 30px;
-    
-}
-div.logo {
-    margin-top: 30px;
-    
-}
-
-.redes a {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-size: 25px;
-    
-}
-
-.redes {
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    margin-bottom: 50px;
-}
-
---------------------paginas--------------------
-
-.pagina {
-    height: 400px;
-    width: 100%;
-    
-}
-.botonPagina {
-text-align: center;
-height: 100px;
-
-}
-
-.img-fluid {
-    width: auto;
-    height: 100%;
-}    
-    
+@import "_footer";
+@import "_pagina";
